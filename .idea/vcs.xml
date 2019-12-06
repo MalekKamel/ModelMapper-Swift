@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/Alamofire" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/Moya" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/ReactiveSwift" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/ReactiveSwift/Carthage/Checkouts/Nimble" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/ReactiveSwift/Carthage/Checkouts/Quick" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/ReactiveSwift/Carthage/Checkouts/Quick/Externals/Nimble" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/ReactiveSwift/Carthage/Checkouts/xcconfigs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/RxSwift" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ModelMapper" vcs="Git" />
+  </component>
+</project>
