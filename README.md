@@ -1,6 +1,5 @@
 # ModelMapper
 An abstraction for mapping models, write a mapper once, use everywhere.
-### License
 
 ### License
 

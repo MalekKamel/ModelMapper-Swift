@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
 Abstraction for model mapping in Swift, write a mapper once, use everywhere.
 DESC
 
-  s.homepage         = 'https://github.com/ShabanKamell/ModellMapper-Swift'
+  s.homepage         = 'https://github.com/ShabanKamell/ModelMapper-Swift'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'ShabanKamell' => 'sh3ban.kamel@gmail.com' }
-  s.source           = { :git => 'https://github.com/ShabanKamell/ModellMapper-Swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ShabanKamell/ModelMapper-Swift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ShaAhKa'
 
   s.swift_version = '5.1.2'
