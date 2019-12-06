@@ -43,13 +43,6 @@
 			remoteGlobalIDString = 04A4DDD9239AB0C800AA26B7;
 			remoteInfo = ModelMapper;
 		};
-		04A4DE2D239AD4A900AA26B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0446C61A2385B00E00195C17 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04A4DDD9239AB0C800AA26B7;
-			remoteInfo = ModelMapper;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,7 +75,7 @@
 		04A4DE23239AD0CC00AA26B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A4DE25239AD0CC00AA26B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A54F2FBF8A87A5F13A63111 /* OptionalOutputListMapperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalOutputListMapperTest.swift; sourceTree = "<group>"; };
-		1A54F70E273D98ADE2522045 /* ModelMapper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ModelMapper.podspec; sourceTree = "<group>"; };
+		1A54F70E273D98ADE2522045 /* ModelMapper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ModelMapper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1A54F92E287F27B29B89B2F6 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 		1A54FA1CB321C4CAFE98C35B /* OptionalOutputListMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalOutputListMapper.swift; sourceTree = "<group>"; };
 		1A54FAD568F7F137288684A4 /* ListMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMapper.swift; sourceTree = "<group>"; };
@@ -127,7 +120,6 @@
 				04A4DE01239ABA2400AA26B7 /* Tests */,
 				04A4DE16239AD0C900AA26B7 /* Example */,
 				0446C6232385B00E00195C17 /* Products */,
-				04FEE38123870519002446DA /* Frameworks */,
 				1A54F70E273D98ADE2522045 /* ModelMapper.podspec */,
 				1A54FBDBFEE81BC84F3718EB /* Package.swift */,
 				1A54FBE1E997F88975C3BD8C /* Cartfile */,
@@ -189,13 +181,6 @@
 				04A4DDDC239AB0C800AA26B7 /* ModelMapper.h */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		04FEE38123870519002446DA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +246,6 @@
 			);
 			dependencies = (
 				04A4DE2A239AD49B00AA26B7 /* PBXTargetDependency */,
-				04A4DE2E239AD4A900AA26B7 /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -382,11 +366,6 @@
 			isa = PBXTargetDependency;
 			target = 04A4DDD9239AB0C800AA26B7 /* ModelMapper */;
 			targetProxy = 04A4DE29239AD49B00AA26B7 /* PBXContainerItemProxy */;
-		};
-		04A4DE2E239AD4A900AA26B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04A4DDD9239AB0C800AA26B7 /* ModelMapper */;
-			targetProxy = 04A4DE2D239AD4A900AA26B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -615,6 +594,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6559T49JP6;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -632,6 +612,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6559T49JP6;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

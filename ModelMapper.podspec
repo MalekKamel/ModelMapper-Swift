@@ -15,6 +15,7 @@ DESC
   s.swift_version = '5.1.2'
   s.ios.deployment_target = '8.0'
   s.source_files  = "Sources/**/*"
+  s.exclude_files  = "Sources/Supporting Files/**/*"
   s.framework  = "Foundation"
 
 end

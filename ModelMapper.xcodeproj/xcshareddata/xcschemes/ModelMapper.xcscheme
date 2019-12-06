@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04FEE2B62386A8CC002446DA"
+               BlueprintIdentifier = "04A4DDD9239AB0C800AA26B7"
                BuildableName = "ModelMapper.framework"
                BlueprintName = "ModelMapper"
                ReferencedContainer = "container:ModelMapper.xcodeproj">
@@ -50,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04FEE2B62386A8CC002446DA"
+            BlueprintIdentifier = "04A4DDD9239AB0C800AA26B7"
             BuildableName = "ModelMapper.framework"
             BlueprintName = "ModelMapper"
             ReferencedContainer = "container:ModelMapper.xcodeproj">
