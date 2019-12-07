@@ -23,6 +23,7 @@ class OptionalOutputListMapperTest: XCTestCase {
     func testMap_returnCorrectOutput() {
         let users = OptionalOutputListMapper(UserMapper()).map(userDtoList)
 
+        XCTAssert(users!.count == 3)
         users!.enumerated().forEach { (index, user) in
             XCTAssertEqual(user.email, userDtoList[index].email)
         }
@@ -30,9 +31,7 @@ class OptionalOutputListMapperTest: XCTestCase {
 
     func testMap_returnNil() {
         userDtoList = []
-
         let users = OptionalOutputListMapper(UserMapper()).map(userDtoList)
-
         XCTAssert(users == nil)
     }
 

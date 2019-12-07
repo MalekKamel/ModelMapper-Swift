@@ -22,7 +22,6 @@ def test_pods
   pod 'RxBlocking'
 end
 
-
 target 'AlamofireExample' do
   use_frameworks!
   examples_pods

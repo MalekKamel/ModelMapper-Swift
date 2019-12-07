@@ -23,6 +23,7 @@ class OptionalInputListMapperTest: XCTestCase {
     func testMap_returnCorrectOutput() {
         let users = OptionalInputListMapper(UserMapper()).map(userDtoList)
 
+        XCTAssert(users.count == 3)
         users.enumerated().forEach { (index, user) in
             XCTAssertEqual(user.email, userDtoList?[index].email)
         }
