@@ -21,6 +21,7 @@ public struct ListMapper<M: Mapper>: ListMapperProtocol {
         self.mapper = mapper
     }
 
+    /// returns the desired list
     public func map(_ input: [M.I]) -> [M.O] {
         input.map { mapper.map($0) }
     }

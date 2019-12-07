@@ -21,6 +21,7 @@ public struct OptionalOutputListMapper<M: Mapper>: OptionalOutputListMapperProto
         self.mapper = mapper
     }
 
+    /// returns nil if the input is empty
     public func map(_ input: [M.I]) -> [M.O]? {
         input.isEmpty ? nil : input.map { mapper.map($0) }
     }

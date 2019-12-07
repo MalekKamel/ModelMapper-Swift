@@ -22,9 +22,10 @@
 		04A4DE2B239AD4A900AA26B7 /* ModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A4DDDA239AB0C800AA26B7 /* ModelMapper.framework */; };
 		04A4DE2C239AD4A900AA26B7 /* ModelMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04A4DDDA239AB0C800AA26B7 /* ModelMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1A54F0652D86A86F1B42F6B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FBE3ABF9B873C7E1B604 /* User.swift */; };
-		1A54F53E8E514523E8DCDA1E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FAAE08EB42D85EC65EC9 /* User.swift */; };
 		1A54F66AF0B451800A61BB00 /* OptionalInputListMapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FD6AC9FB6BAC7EDFC68E /* OptionalInputListMapperTest.swift */; };
+		1A54F6B7E3F16365BA2248CF /* OptionalListMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F18363413F99528664FC /* OptionalListMapper.swift */; };
 		1A54F79487E537C60CCE436C /* OptionalOutputListMapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F2FBF8A87A5F13A63111 /* OptionalOutputListMapperTest.swift */; };
+		1A54FD15758C129BE05444EF /* OptionalListMapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FFE4BD817CB047379711 /* OptionalListMapperTest.swift */; };
 		1A54FE4EB362AC57D3531C0C /* OptionalOutputListMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FA1CB321C4CAFE98C35B /* OptionalOutputListMapper.swift */; };
 		1A54FE682C3B008B13AE775D /* OptionalInputListMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FE4A71817BD2D9976578 /* OptionalInputListMapper.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		045B2956239BEAD400557B33 /* ModelMapperPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ModelMapperPlayground.playground; path = ../../ModelMapperPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04A4DDDA239AB0C800AA26B7 /* ModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A4DDDC239AB0C800AA26B7 /* ModelMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelMapper.h; sourceTree = "<group>"; };
 		04A4DDDD239AB0C800AA26B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,17 +77,18 @@
 		04A4DE20239AD0CC00AA26B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A4DE23239AD0CC00AA26B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A4DE25239AD0CC00AA26B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A54F18363413F99528664FC /* OptionalListMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalListMapper.swift; sourceTree = "<group>"; };
 		1A54F2FBF8A87A5F13A63111 /* OptionalOutputListMapperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalOutputListMapperTest.swift; sourceTree = "<group>"; };
 		1A54F70E273D98ADE2522045 /* ModelMapper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ModelMapper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1A54F92E287F27B29B89B2F6 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 		1A54FA1CB321C4CAFE98C35B /* OptionalOutputListMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalOutputListMapper.swift; sourceTree = "<group>"; };
-		1A54FAAE08EB42D85EC65EC9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1A54FAD568F7F137288684A4 /* ListMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMapper.swift; sourceTree = "<group>"; };
 		1A54FBDBFEE81BC84F3718EB /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		1A54FBE1E997F88975C3BD8C /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		1A54FBE3ABF9B873C7E1B604 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1A54FD6AC9FB6BAC7EDFC68E /* OptionalInputListMapperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalInputListMapperTest.swift; sourceTree = "<group>"; };
 		1A54FE4A71817BD2D9976578 /* OptionalInputListMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalInputListMapper.swift; sourceTree = "<group>"; };
+		1A54FFE4BD817CB047379711 /* OptionalListMapperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalListMapperTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +121,9 @@
 		0446C6192385B00E00195C17 = {
 			isa = PBXGroup;
 			children = (
+				04A4DE16239AD0C900AA26B7 /* Example */,
 				0446C75C2385C60D00195C17 /* Sources */,
 				04A4DE01239ABA2400AA26B7 /* Tests */,
-				04A4DE16239AD0C900AA26B7 /* Example */,
 				0446C6232385B00E00195C17 /* Products */,
 				1A54F70E273D98ADE2522045 /* ModelMapper.podspec */,
 				1A54FBDBFEE81BC84F3718EB /* Package.swift */,
@@ -146,6 +149,7 @@
 				1A54FAD568F7F137288684A4 /* ListMapper.swift */,
 				1A54FE4A71817BD2D9976578 /* OptionalInputListMapper.swift */,
 				1A54FA1CB321C4CAFE98C35B /* OptionalOutputListMapper.swift */,
+				1A54F18363413F99528664FC /* OptionalListMapper.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -158,6 +162,7 @@
 				1A54FBE3ABF9B873C7E1B604 /* User.swift */,
 				1A54F2FBF8A87A5F13A63111 /* OptionalOutputListMapperTest.swift */,
 				1A54FD6AC9FB6BAC7EDFC68E /* OptionalInputListMapperTest.swift */,
+				1A54FFE4BD817CB047379711 /* OptionalListMapperTest.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 		04A4DE16239AD0C900AA26B7 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				045B2956239BEAD400557B33 /* ModelMapperPlayground.playground */,
 				04A4DE17239AD0C900AA26B7 /* AppDelegate.swift */,
 				04A4DE19239AD0C900AA26B7 /* SceneDelegate.swift */,
 				04A4DE1B239AD0C900AA26B7 /* ViewController.swift */,
@@ -172,7 +178,6 @@
 				04A4DE20239AD0CC00AA26B7 /* Assets.xcassets */,
 				04A4DE22239AD0CC00AA26B7 /* LaunchScreen.storyboard */,
 				04A4DE25239AD0CC00AA26B7 /* Info.plist */,
-				1A54F15F9A254809103F8AB0 /* Model */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -184,14 +189,6 @@
 				04A4DDDC239AB0C800AA26B7 /* ModelMapper.h */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1A54F15F9A254809103F8AB0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1A54FAAE08EB42D85EC65EC9 /* User.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +337,7 @@
 				04A4DDFA239AB36B00AA26B7 /* ListMapper.swift in Sources */,
 				1A54FE682C3B008B13AE775D /* OptionalInputListMapper.swift in Sources */,
 				1A54FE4EB362AC57D3531C0C /* OptionalOutputListMapper.swift in Sources */,
+				1A54F6B7E3F16365BA2248CF /* OptionalListMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +350,7 @@
 				1A54F0652D86A86F1B42F6B4 /* User.swift in Sources */,
 				1A54F79487E537C60CCE436C /* OptionalOutputListMapperTest.swift in Sources */,
 				1A54F66AF0B451800A61BB00 /* OptionalInputListMapperTest.swift in Sources */,
+				1A54FD15758C129BE05444EF /* OptionalListMapperTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +361,6 @@
 				04A4DE1C239AD0C900AA26B7 /* ViewController.swift in Sources */,
 				04A4DE18239AD0C900AA26B7 /* AppDelegate.swift in Sources */,
 				04A4DE1A239AD0C900AA26B7 /* SceneDelegate.swift in Sources */,
-				1A54F53E8E514523E8DCDA1E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
