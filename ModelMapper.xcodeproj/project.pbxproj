@@ -31,6 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		045B2957239C528400557B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0446C61A2385B00E00195C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A4DE14239AD0C900AA26B7;
+			remoteInfo = Example;
+		};
 		04A4DE06239ABA2400AA26B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0446C61A2385B00E00195C17 /* Project object */;
@@ -235,6 +242,7 @@
 			);
 			dependencies = (
 				04A4DE07239ABA2400AA26B7 /* PBXTargetDependency */,
+				045B2958239C528400557B33 /* PBXTargetDependency */,
 			);
 			name = ModelMapperTests;
 			productName = ModelMapperTests;
@@ -275,6 +283,7 @@
 					};
 					04A4DDFF239ABA2400AA26B7 = {
 						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 04A4DE14239AD0C900AA26B7;
 					};
 					04A4DE14239AD0C900AA26B7 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -367,6 +376,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		045B2958239C528400557B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A4DE14239AD0C900AA26B7 /* Example */;
+			targetProxy = 045B2957239C528400557B33 /* PBXContainerItemProxy */;
+		};
 		04A4DE07239ABA2400AA26B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04A4DDD9239AB0C800AA26B7 /* ModelMapper */;
@@ -579,6 +593,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Debug;
 		};
@@ -596,6 +611,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Release;
 		};
