@@ -96,7 +96,7 @@ Carthage users can point to this repository and use generated `ModelMapper` fram
 Make the following entry in your Cartfile:
 
 ```
-github "ShabanKamell/ModelMapper-Swift" ~> 0.4.0
+github "ShabanKamell/ModelMapper-Swift" ~> 0.1.0
 ```
 
 Then run `carthage update`.
