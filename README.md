@@ -81,7 +81,7 @@ let package = Package(
 For RxRequester, use the following entry in your Podfile:
 
 ```rb
-pod 'ModelMapper', '~> 0.1.0'
+pod 'ModelMapper-Swift', '~> 0.1.0'
 ```
 
 Then run `pod install`.
