@@ -71,23 +71,24 @@ let package = Package(
     ]
 )
 ```
+Don't forget to add `import ModelMapper` to use the framework.
 
 ### Accio
 
-[Accio](https://github.com/JamitLabs/Accio) is a dependency manager based on SwiftPM which can build frameworks for iOS/macOS/tvOS/watchOS. Therefore the integration steps of RxRequester are exactly the same as described above. Once your `Package.swift` file is configured, run `accio update` instead of `swift package update`.
+[Accio](https://github.com/JamitLabs/Accio) is a dependency manager based on SwiftPM which can build frameworks for iOS/macOS/tvOS/watchOS. Therefore the integration steps of ModelMapper are exactly the same as described above. Once your `Package.swift` file is configured, run `accio update` instead of `swift package update`.
+Don't forget to add `import ModelMapper` to use the framework.
 
 ### CocoaPods
 
-For RxRequester, use the following entry in your Podfile:
+For ModelMapper, use the following entry in your Podfile:
 
 ```rb
-pod 'ModelMapper-Swift', '~> 0.1.0'
+pod 'ModelsMapper', '~> 0.1.0'
 ```
 
 Then run `pod install`.
 
-In any file you'd like to use RxRequester in, don't forget to
-import the framework with `import ModelMapper` or `import ModelMapper_Swift` when using CocoaPods.
+Don't forget to add `import ModelsMapper` to use the framework.
 
 ### Carthage
 
