@@ -87,7 +87,7 @@ pod 'ModelMapper-Swift', '~> 0.1.0'
 Then run `pod install`.
 
 In any file you'd like to use RxRequester in, don't forget to
-import the framework with `import ModelMapper`.
+import the framework with `import ModelMapper` or `import ModelMapper_Swift` when using CocoaPods.
 
 ### Carthage
 
