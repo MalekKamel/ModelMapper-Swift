@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'ModelMapper'
+  s.name             = 'ModelMapper-Swift'
   s.version          = '0.1.0'
   s.summary          = 'Abstraction for model mapping in Swift'
   s.description      = <<-DESC

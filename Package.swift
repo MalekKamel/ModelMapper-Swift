@@ -16,4 +16,4 @@ let package = Package(
                     path: "Sources",
                     exclude: ["Tests", "Examples"])
         ]
-)in
+)
