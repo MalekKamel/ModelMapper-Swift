@@ -77,9 +77,9 @@
 		04A4DE20239AD0CC00AA26B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A4DE23239AD0CC00AA26B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A4DE25239AD0CC00AA26B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A54F0D714572F4381C201F7 /* ModelsMapper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ModelsMapper.podspec; sourceTree = "<group>"; };
 		1A54F18363413F99528664FC /* OptionalListMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalListMapper.swift; sourceTree = "<group>"; };
 		1A54F2FBF8A87A5F13A63111 /* OptionalOutputListMapperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalOutputListMapperTest.swift; sourceTree = "<group>"; };
-		1A54F70E273D98ADE2522045 /* ModelMapper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ModelMapper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1A54F92E287F27B29B89B2F6 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 		1A54FA1CB321C4CAFE98C35B /* OptionalOutputListMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalOutputListMapper.swift; sourceTree = "<group>"; };
 		1A54FAD568F7F137288684A4 /* ListMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMapper.swift; sourceTree = "<group>"; };
@@ -125,9 +125,9 @@
 				0446C75C2385C60D00195C17 /* Sources */,
 				04A4DE01239ABA2400AA26B7 /* Tests */,
 				0446C6232385B00E00195C17 /* Products */,
-				1A54F70E273D98ADE2522045 /* ModelMapper.podspec */,
 				1A54FBDBFEE81BC84F3718EB /* Package.swift */,
 				1A54FBE1E997F88975C3BD8C /* Cartfile */,
+				1A54F0D714572F4381C201F7 /* ModelsMapper.podspec */,
 			);
 			sourceTree = "<group>";
 		};
