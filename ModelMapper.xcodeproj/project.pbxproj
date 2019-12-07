@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045B295A239C568E00557B33 /* ModelMapperTests.xctest in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 04A4DE00239ABA2400AA26B7 /* ModelMapperTests.xctest */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04A4DDEC239AB0C900AA26B7 /* ModelMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A4DDDC239AB0C800AA26B7 /* ModelMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04A4DDF8239AB36600AA26B7 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F92E287F27B29B89B2F6 /* Mapper.swift */; };
 		04A4DDFA239AB36B00AA26B7 /* ListMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FAD568F7F137288684A4 /* ListMapper.swift */; };
@@ -38,6 +39,13 @@
 			remoteGlobalIDString = 04A4DE14239AD0C900AA26B7;
 			remoteInfo = Example;
 		};
+		045B295B239C568E00557B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0446C61A2385B00E00195C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A4DDFF239ABA2400AA26B7;
+			remoteInfo = ModelMapperTests;
+		};
 		04A4DE06239ABA2400AA26B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0446C61A2385B00E00195C17 /* Project object */;
@@ -55,6 +63,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		045B295D239C568E00557B33 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				045B295A239C568E00557B33 /* ModelMapperTests.xctest in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04A4DE2F239AD4A900AA26B7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +154,7 @@
 				1A54FBDBFEE81BC84F3718EB /* Package.swift */,
 				1A54FBE1E997F88975C3BD8C /* Cartfile */,
 				1A54F0D714572F4381C201F7 /* ModelsMapper.podspec */,
+				045B2959239C568E00557B33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +179,13 @@
 				1A54F18363413F99528664FC /* OptionalListMapper.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		045B2959239C568E00557B33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		04A4DE01239ABA2400AA26B7 /* Tests */ = {
@@ -257,11 +284,13 @@
 				04A4DE12239AD0C900AA26B7 /* Frameworks */,
 				04A4DE13239AD0C900AA26B7 /* Resources */,
 				04A4DE2F239AD4A900AA26B7 /* Embed Frameworks */,
+				045B295D239C568E00557B33 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				04A4DE2A239AD49B00AA26B7 /* PBXTargetDependency */,
+				045B295C239C568E00557B33 /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -379,6 +408,11 @@
 			isa = PBXTargetDependency;
 			target = 04A4DE14239AD0C900AA26B7 /* Example */;
 			targetProxy = 045B2957239C528400557B33 /* PBXContainerItemProxy */;
+		};
+		045B295C239C568E00557B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A4DDFF239ABA2400AA26B7 /* ModelMapperTests */;
+			targetProxy = 045B295B239C568E00557B33 /* PBXContainerItemProxy */;
 		};
 		04A4DE07239ABA2400AA26B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
