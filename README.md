@@ -76,6 +76,7 @@ Don't forget to add `import ModelMapper` to use the framework.
 ### Accio
 
 [Accio](https://github.com/JamitLabs/Accio) is a dependency manager based on SwiftPM which can build frameworks for iOS/macOS/tvOS/watchOS. Therefore the integration steps of ModelMapper are exactly the same as described above. Once your `Package.swift` file is configured, run `accio update` instead of `swift package update`.
+
 Don't forget to add `import ModelMapper` to use the framework.
 
 ### CocoaPods
