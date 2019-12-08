@@ -22,7 +22,7 @@ struct UserDtoMapper: Mapper {
     }
 }
 
-// mape UserDto to User
+// map UserDto to User
 let user: User = UserDtoMapper().map(userDto)
 
 // map [UserDto] to [User]
