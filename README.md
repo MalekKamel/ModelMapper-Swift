@@ -12,6 +12,9 @@ It's a best practice, like in clean architecture, to create a model for reach do
 # Usage
 
 ```swift
+
+import ModelsMapper
+
 // declare Mapper
 struct UserDtoMapper: Mapper {
     typealias I = UserDto
